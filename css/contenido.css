@@ -1,0 +1,628 @@
+body {font-family: 'PT Sans Narrow';
+background-color: #F2F7F9;
+ margin: 0;
+ height: 100%;
+
+}
+
+.navbarX {
+  overflow: hidden;
+  background-color: #DF856D;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbarT {
+  overflow: hidden;
+  background-color: #DF856D;
+  position: fixed;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  padding: 5px;
+}
+
+.navbarE {
+  overflow: hidden;
+  background-color: #DF856D;
+  position: fixed;
+  width: 100%;
+  color: white;
+  font-size: 150%;
+  padding: 5px;
+}
+
+.colorT {
+  color: white;
+  background-color: #71D4C0;
+  padding-left: 15%;
+  padding-right: 10%;
+border-radius: 15px;
+
+}
+
+.navbarX a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 11%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbarX a:hover {
+  background: #DF856D;
+  color: white;
+}
+
+.navbarX a.active {
+  background-color: #DF856D;
+  color: white;
+}
+
+.main {
+  padding-top: 20%;
+  color:#7C7D7D;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.mainUB {
+  padding-top: 5%;
+  color:white;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+.mainUT {
+  padding-top: 5%;
+  color:#7C7D7D;
+  background-color: #DDEAF3;
+  font-size: 1.5em;
+  text-align: justify;
+  padding-left: 5%;
+
+}
+
+.mainU {
+  padding-top: 15%;
+  padding-bottom: 5%;
+  color:#7C7D7D;
+  font-size: 1.2em;
+  text-align: justify;
+  background-color: #BFD4E4;
+}
+
+.mainM {
+  padding-top: 11%;
+  color:#7C7D7D;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0;
+  height: 100%;
+}
+
+.mainT {
+  padding-top: 5%;
+  color:#7C7D7D;
+  font-size: 1.2em;
+  text-align:center;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 80%;
+
+}
+
+.columnE {
+  float: left;
+  width: 20%;
+
+}
+
+
+.columnM {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #BFD4E4;
+  border-radius: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.cardU {
+
+  padding-left: 15px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #BFD4E4;
+  border-radius: 5px;
+  margin-right: 3%;
+  font-size: 1.5em;
+}
+
+.cardE {
+padding-top: 3%;
+  text-align: center;
+  background-color: #F2F7F9;
+
+  margin-left:  5%;
+}
+
+.espacio{
+  padding: 3%;
+}
+
+input.button-entrega {
+
+    background-color: #DF856D; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    border-radius: 20px;
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 50px;           /* make this the size of your image */
+      /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
+padding-right: 10%;
+padding-left: 10%;
+  padding-bottom: 15px;
+  padding-top: 5px;
+
+}
+
+
+input.button-Nuevo {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+
+}
+
+
+input.button-moto {
+    background-image: url(../img/moto.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 117px;           /* make this the size of your image */
+    padding-left: 117px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+input.button-regresa {
+    background-image: url(../img/back.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 117px;           /* make this the size of your image */
+    padding-left: 117px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+input.button-regresaM {
+    background-image: url(../img/back.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 25px;           /* make this the size of your image */
+    padding-left: 25px;
+    margin-left: 10px;
+       /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    margin-right: 200%;
+}
+
+input.continua {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 50px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-left: 40%;
+    padding-right: 50%;
+    color: #f2f2f2;
+    font-size: 2em;
+}
+
+input.llegado {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 50px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-left: 36%;
+    padding-right: 50%;
+    color: #f2f2f2;
+    font-size: 1.6em;
+}
+
+input.button-perfil {
+    background-image: url(../img/user.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 30px;           /* make this the size of your image */
+    padding-left: 25px;
+    margin-left: 10px;
+       /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+
+}
+
+input.button-cerrar {
+    background-image: url(../img/cerrar.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 30px;           /* make this the size of your image */
+    padding-right: 30px;
+    margin-left: 60%;
+    right: 5px;
+
+       /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+
+}
+
+.cerrar {
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 35px;           /* make this the size of your image */
+  padding-left: 70%;
+    margin-top: -35px;
+       /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+
+}
+
+.textoCentro {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 40px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-left: 40%;
+    padding-right: 50%;
+    padding-top: 7px;
+    color: #f2f2f2;
+    font-size: 1.3em;
+}
+
+.textoCentroD {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 45px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-right: 10%;
+    margin-right: 10%;
+    padding-top: 7px;
+    color: #f2f2f2;
+    font-size: 1.2em;
+}
+
+.textoCentro2 {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 30px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-left: 37%;
+    padding-right: 20%;
+    margin-top: -30px;
+    padding-bottom: 7px;
+    color: #f2f2f2;
+    font-size: 1.3em;
+}
+
+.textoCentroE {
+
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 30px;           /* make this the size of your image */
+    /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    padding-left: 37%;
+    padding-right: 20%;
+    padding-bottom: 7px;
+    color: #f2f2f2;
+    font-size: 1.3em;
+}
+
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:60px;
+        right:5px;
+}
+
+#map {
+  height: 65%;
+}
+/* Optional: Makes the sample page fill the window. */
+
+#floating-panel {
+
+  top: 20%;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+/*para ver imagnes flotamte*/
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    color: #f1f1f1;
+    font-size: 2em;
+}
+
+.telefono-encima{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    color: #f1f1f1;
+    font-size: 2em;
+}
+
+.foto-encima{
+    position: absolute;
+    top: 27%;
+    right: 3%;
+    color: #f1f1f1;
+    font-size: 2em;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 360px) {
+
+  .navbarX a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10%;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  .textoCentro {
+
+      background-color: transparent; /* make the button transparent */
+      background-repeat: no-repeat;  /* make the background image appear only once */
+      background-position: 0px 0px;  /* equivalent to 'top left' */
+      border: none;           /* assuming we don't want any borders */
+      cursor: pointer;        /* make the cursor like hovering over an <a> element */
+      height: 40px;           /* make this the size of your image */
+      /* make text start to the right of the image */
+      vertical-align: middle; /* align the text vertically centered */
+      padding-left: 40%;
+      padding-right: 50%;
+      padding-top: 5px;
+      color: #f2f2f2;
+      font-size: 1.3em;
+  }
+
+  .textoCentroD {
+
+      background-color: transparent; /* make the button transparent */
+      background-repeat: no-repeat;  /* make the background image appear only once */
+      background-position: 0px 0px;  /* equivalent to 'top left' */
+      border: none;           /* assuming we don't want any borders */
+      cursor: pointer;        /* make the cursor like hovering over an <a> element */
+      height: 4px;           /* make this the size of your image */
+      /* make text start to the right of the image */
+      vertical-align: middle; /* align the text vertically centered */
+      padding-top: 7px;
+
+        padding-left: 40%;
+      left: 333px;
+      color: #f2f2f2;
+      font-size: 1.1em;
+  }
+
+  .telefono-encima{
+      position: absolute;
+      top: 15%;
+      left: 7%;
+      color: #f1f1f1;
+      font-size: 1.7em;
+  }
+
+
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+
+  .navbarX a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10.5%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .foto-encima{
+      position: absolute;
+      top: 22%;
+      right: 3%;
+      color: #f1f1f1;
+  }
+
+  .telefono-encima{
+      position: absolute;
+      top: 15%;
+      left: 7%;
+      color: #f1f1f1;
+      font-size: 1.7em;
+  }
+
+
+}
+
+textarea {
+  resize: none;
+}
